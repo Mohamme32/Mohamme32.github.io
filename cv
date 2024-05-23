@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./fonts/font-face.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#timeline">Lebenslauf</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-text">
+          <h2 class="text-accent">Hi, ich bin</h2>
+          <h1>Tobias Wehrle</h1>
+          <h2 class="text-primary">Developer; Trainer; Gamer;</h2>
+          <p title="Ich, einfach unverbesserlich...">
+            Leidenschaftlicher Beibringer von Wissen und Programmierer. In
+            meiner Welt verschmelzen Technologie und Bildung zu einzigartigen
+            Erlebnissen. Stets auf der Suche nach neuen Herausforderungen und
+            Wegen, um Wissen spielerisch zu vermitteln.
+          </p>
+        </div>
+        <img src="https://picsum.photos/400/600" alt="A picture of me." />
+        <img src="./assets/me.webp" alt="A picture of me." />
+      </section>
+      <section id="skills" class="skills">
+        <ul>
+          <li>
+            <h3>HTML</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width: 70%;
+                  background-color: green;
+                  box-shadow: 5px 0 15px green;
+                "
+              >
+                <span class="value">70</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h3>CSS</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width: 50%;
+                  background-color: blue;
+                  box-shadow: 5px 0 15px blue;
+                "
+              >
+                <span class="value">50</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h3>JavaScript</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width: 30%;
+                  background-color: orange;
+                  box-shadow: 5px 0 15px orange;
+                "
+              >
+                <span class="value">30</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h3>Vibes</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width: 90%;
+                  background-color: purple;
+                  box-shadow: 5px 0 15px purple;
+                "
+              >
+                <span class="value">90</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="timeline" class="timeline">
+        <h2 class="timeline-title">Lebenslauf</h2>
+        <ul class="timeline-items">
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2014</span>
+            <div class="timeline-content">
+              <h3>Realschulabschluss</h3>
+              <p>Linux; Gaming; Orientierungssuche;</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2014-2015</span>
+            <div class="timeline-content">
+              <h3>FSJ beim ASB</h3>
+              <p>Freiwilliges Soziales Jahr beim Arbeiter-Samariter-Bund</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2015-2020</span>
+            <div class="timeline-content">
+              <h3>
+                Ausbildung und Übernahme: Fachkraft für Lebensmitteltechnik
+              </h3>
+              <p>
+                Abgeschlossene Berufsausbildung zur Fachkraft für
+                Lebensmitteltechnik bei Kaufland Fleischwaren im Jahr 2018, mit
+                anschließender Übernahme
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2020-2024</span>
+            <div class="timeline-content">
+              <h3>Umschulung und Übernahme als Trainer für Fachinformatiker</h3>
+              <p>
+                Übernahme nach Praktikum als IT-Trainer bei Lutz & Grub:
+                Academy™️. Schwerpunkt auf Webentwicklung, Linux und UML.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="projects" class="projects">
+        <ul>
+          <li>
+            <img src="https://picsum.photos/400/400" alt="Project 1 Image" />
+            <h4>Project 1</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              ut.
+            </p>
+            <a
+              href="https://github.com/BoilerplateSharp/boilerplatesharp.github.io"
+              >GO</a
+            >
+            <div class="card-content">
+              <h4>Project 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, ut.
+              </p>
+              <a
+                href="https://github.com/BoilerplateSharp/boilerplatesharp.github.io"
+                >GO</a
+              >
+            </div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/400/400" alt="Project 2 Image" />
+            <h4>Project 2</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem,
+              inventore.
+            </p>
+            <a
+              href="https://github.com/BoilerplateSharp/boilerplatesharp.github.io"
+              >GO</a
+            >
+            <div class="card-content">
+              <h4>Project 2</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorem, inventore.
+              </p>
+              <a
+                href="https://github.com/BoilerplateSharp/boilerplatesharp.github.io"
+                >GO</a
+              >
+            </div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/400/400" alt="Project 3 Image" />
+            <h4>Project 3</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatem, natus.
+            </p>
+            <a
+              href="https://github.com/BoilerplateSharp/boilerplatesharp.github.io"
+              >GO</a
+            >
+            <div class="card-content">
+              <h4>Project 3</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem, natus.
+              </p>
+              <a
+                href="https://github.com/BoilerplateSharp/boilerplatesharp.github.io"
+                >GO</a
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
+93 changes: 93 additions & 0 deletions 93
+styles.css
+@@ -274,6 +274,7 @@ section.projects {
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+section.projects ul {
+@@ -328,3 +329,95 @@ section.projects ul li:hover {
+  box-shadow: 6px 6px 20px var(--accent-color);
+  transform: translateY(-1rem) translateX(0.5rem);
+}
+
+/* Media-Queries */
+@media screen and (max-width: 900px) {
+  section.hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0;
+  }
+
+  section.hero .hero-text {
+    font-size: 0.9em;
+    height: 100%;
+    justify-content: end;
+  }
+
+  /* ul.nav#id {
+  }
+  let myNavlinkElem = document.querySelector('ul.nav#id') */
+
+  section.hero .hero-text p {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 55ch;
+  }
+
+  section.hero .hero-text h1 {
+    margin: 0;
+  }
+
+  section.hero img {
+    height: 100%;
+  }
+
+  section.skills ul {
+    margin-top: 0;
+    gap: 1rem;
+    /* transform: scale(0.8); */
+  }
+  section.skills ul li {
+    width: 80%;
+  }
+  section.timeline {
+    padding: 0.6rem;
+    justify-content: end;
+  }
+  section.timeline h2.timeline-title {
+    margin: 0;
+  }
+  section.timeline ul.timeline-items {
+    max-width: fit-content;
+  }
+  .timeline-content p {
+    max-width: 30vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  ul.timeline-items li:nth-child(odd) .timeline-content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  /* Project Mobile Section */
+  section.projects ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  section.projects ul li {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    width: 90%;
+    flex-basis: auto;
+    max-height: 25vh;
+  }
+  section.projects ul li .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  section.projects ul li img {
+    width: auto;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+  }
+  section.projects ul li .card-content a {
+    margin-top: auto;
+    margin-bottom: 0.3rem;
+    align-self: start;
+  }
+}    
