@@ -1,11 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porffolio</title>
-</head>
-<body>
-    <h1>Hallo Welt!</h1>
-</body>
+  <head>
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts/font-face.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#timeline">Lebenslauf</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-text">
+          <h2 class="text-accent">Hi, ich bin</h2>
+          <h1>Mohammed Hourani</h1>
+          <h2 class="text-primary">IT Fachinformatiker Anwindungsentwicklung</h2>
+          <p title="Ich, einfach unverbesserlich...">
+            Engagierter Programmierer und Wissensvermittler.
+            In meiner Welt vereinen sich Technik und Bildung zu außergewöhnlichen Erlebnissen. 
+            Immer auf der Suche nach neuen Herausforderungen und innovativen Möglichkeiten,
+             Wissen spielerisch zu verbreiten.
+          </p>
+        </div>
+        <img src="/WhatsApp Bild 2024-06-04 um 21.50.58_2f7ce0da.jpg" alt="A picture of me." />
+      </section>
+      <section id="skills" class="skills">
+        <ul>
+          <li>
+            <h3>HTML</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width:5%;
+                  background-color: green;
+                  box-shadow: 5px 0 15px green;
+                "
+              >
+                <span class="value">5</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h3>CSS</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width: 5%;
+                  background-color: blue;
+                  box-shadow: 5px 0 15px blue;
+                "
+              >
+                <span class="value">5</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h3>JavaScript</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width: 0%;
+                  background-color: orange;
+                  box-shadow: 5px 0 15px orange;
+                "
+              >
+                <span class="value">0</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h3>Vibes</h3>
+            <div class="skill-shadow">
+              <div
+                class="skill-bar"
+                style="
+                  width: 0%;
+                  background-color: purple;
+                  box-shadow: 5px 0 15px purple;
+                "
+              >
+                <span class="value">0</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="timeline" class="timeline">
+        <h2 class="timeline-title">Lebenslauf</h2>
+        <ul class="timeline-items">
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2010</span>
+            <div class="timeline-content">
+              <h3>Abitur</h3>
+              <p>Sehr gute Abiturnote;</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2011-2014</span>
+            <div class="timeline-content">
+              <h3>BWL</h3>
+              <p>Damaskus Universtät</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2014-2015</span>
+            <div class="timeline-content">
+              <h3>
+                Flucht Reise nach Deutschland
+              </h3>
+              
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2016-2017</span>
+            <div class="timeline-content">
+              <h3>BWL Industrie </h3>
+              <p>
+               DHBW Mannheim zwei Semester.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2018-2023</span>
+            <div class="timeline-content">
+              <h3>Produktion Mitarbeiter</h3>
+              <p>Billerbeck GmbH</p>
+            </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="projects" class="projects">
+        <ul>
+          <li>
+            <img src="https://picsum.photos/400/400" alt="Project 1 Image"  />
+            <div class="card-content">
+              <h4>Project 1</h4>
+              <p>
+                Google.
+              </p>
+              <a
+                href="https://www.google.com/"
+                >GO</a
+              >
+            </div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/400/400" alt="Project 2 Image" />
+            <div class="card-content">
+              <h4>Project 2</h4>
+              <p>
+               Google
+              </p>
+              <a
+                href="https://www.google.com/"
+                >GO</a
+              >
+            </div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/400/400" alt="Project 3 Image" />
+            <div class="card-content">
+              <h4>Project 3</h4>
+              <p>
+                Google
+              </p>
+              <a
+                href="https://www.google.com/"
+                >GO</a
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
